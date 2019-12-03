@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="action.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <meta charset="UTF-8">
+    <title>Linked List With Trent</title>
+</head>
+<body>
+
+    <div id="mainBox">
+        <button onclick="donuts.insert(document.getElementById('insert').value, 'Head'); document.getElementById('insert').value = '';">Insert</button>
+        <input id="insert" type="text" value="">
+        <button onclick="donuts.remove(document.getElementById('remove').value); document.getElementById('remove').value = '';">Remove</button>
+        <input id="remove" type="text" value="">
+        <div id="Linked_list">
+            <ul id="list">
+
+            </ul>
+        </div>
+    </div>
+
+
+</body>
+</html>

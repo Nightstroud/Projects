@@ -1,0 +1,15 @@
+{
+  "name": "Background Extension",
+  "options_page": "options.html",
+  "version": "1.0",
+  "description": "Background Color Picker",
+  "permissions": ["storage", "declarativeContent", "activeTab"],
+  "background": {
+    "scripts": ["action.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
